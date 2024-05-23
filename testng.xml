@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/nkosinathim/Documents/GoLPi">
+        <classes>
+            <class name="Tests.TestGoLPI">
+                <methods>
+                    <include name="verify_Login_is_Successful"/>
+                    <include name="clickToolsThenNewBusiness"/>
+                    <include name="searchForClient"/>
+                    <include name="enterClientInformation"/>
+                    <include name="uploadCopyOfIdentificationDocument"/>
+                    <include name="uploadCopyOfProofOfResidence"/>
+                    <include name="uploadCopyOfClientForm"/>
+                    <include name="clickNextOnDocumentation"/>
+                    <include name="clickSubmitButton"/>
+                    <include name="verifyClientAddedSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
